@@ -60,7 +60,8 @@
            move 9876543.21 to salary.
       *
            open output lab2fil.
-           perform load-file 2000000 times.
+      *     perform load-file 2000000 times.
+           perform load-file 1000 times.
            close lab2fil.
            CALL "system" USING batchfile-command2. 
            CALL "system" USING batchfile-command. 
@@ -142,3 +143,14 @@
            add 1 to sequence-no.          
            write lab2fil-record.
       *    display sequence-no line 10 col 10.
+
+       DC-PARA.
+           STRING "./", DELIMITED BY size,
+           batchfile-name, DELIMITED BY size, 
+            ".sh", DELIMITED BY size, 
+           INTO batchfile-command. 
+           STRING "chmod 777 ", DELIMITED BY size,
+           batchfile-name, DELIMITED BY size, 
+            ".sh", DELIMITED BY size, 
+           INTO batchfile-command2.
+      *                
