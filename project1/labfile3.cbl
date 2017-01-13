@@ -143,3 +143,14 @@
            add 1 to sequence-no.          
            write lab2fil-record.
       *    display sequence-no line 10 col 10.
+
+       DC-PARA.
+           STRING "./", DELIMITED BY size,
+           batchfile-name, DELIMITED BY size, 
+            ".sh", DELIMITED BY size, 
+           INTO batchfile-command. 
+           STRING "chmod 777 ", DELIMITED BY size,
+           batchfile-name, DELIMITED BY size, 
+            ".sh", DELIMITED BY size, 
+           INTO batchfile-command2.
+      *                
