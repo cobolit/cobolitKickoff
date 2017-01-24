@@ -1,0 +1,9 @@
+#Mon Jan 23 22:22:26 PST 2017
+-w\ =true
+_private_resource_path=_global
+CobolCompilerArgs_code_cover=true
+CobolCompilerArgs_fprofiling=true
+CobolCompilerBuildOutputDirectory=.\\object
+CobolCompilerArgsUsedebug=true
+CobolProjectSettings=true
+CobolPostCleanScript=%COBOLITDIR%\\setenv_cobolit.bat
