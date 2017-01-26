@@ -1,9 +1,10 @@
-#Mon Jan 23 22:22:26 PST 2017
--w\ =true
-_private_resource_path=_global
-CobolCompilerArgs_code_cover=true
-CobolCompilerArgs_fprofiling=true
-CobolCompilerBuildOutputDirectory=.\\object
+#Thu Jan 26 21:06:06 UTC 2017
 CobolCompilerArgsUsedebug=true
+CobolSetupScript=${COBOLITDIR\:-/opt/cobol-it-64}/bin/cobol-it-setup.sh
+CobolCompilerArgs_fprofiling=true
+_private_resource_path=file\:/root/git/cobolitKickoff/project1
+CobolCompilerBuildOutputDirectory=./object
+CobolPostCleanScript=${COBOLITDIR\:-/opt/cobol-it}/bin/cobol-it-setup.sh
 CobolProjectSettings=true
-CobolPostCleanScript=%COBOLITDIR%\\setenv_cobolit.bat
+CobolCompilerArgs_code_cover=true
+-w\ =true
