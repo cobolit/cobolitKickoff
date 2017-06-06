@@ -1,6 +1,7 @@
       * 
        identification division.
        program-id.  labfile2.
+      * added comment
        environment division. 
        input-output section.
        file-control.
