@@ -2,6 +2,7 @@
        identification division.
        program-id.  labfile2.
       * added comment
+      * added comment to master - commit and push to github repository
        environment division. 
        input-output section.
        file-control.
