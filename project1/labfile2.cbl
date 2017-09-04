@@ -74,6 +74,7 @@
                   INTO seqfile-name.
       *
        CREATE-SORTEDFILE-NAME. 
+      * added comment 
       *seqfile-var-sort.txt
            STRING seqfile-rand-red, DELIMITED BY SIZE,
            "sort.txt", DELIMITED BY SIZE, 
